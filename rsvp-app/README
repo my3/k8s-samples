@@ -1,0 +1,5 @@
+kubectl create deployment rsvp-db.yaml
+kubectl create -f rsvp-db-service.yaml
+kubectl create -f rsvp-web.yaml
+kubectl create -f rsvp-web-service.yaml
+minikube service rsvp
